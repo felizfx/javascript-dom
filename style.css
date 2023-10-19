@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  font-family: "Inter";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+}
+
+#enter-info > .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card-info {
+  margin: 20px;
+  cursor: pointer;
+}
+
+.info > label {
+  font-size: 20px;
+}
+
+#enter-info > button {
+  border-radius: 5px;
+  width: 130px;
+  height: 40px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  margin: 40px 0 0 0;
+  cursor: pointer;
+  background-color: #1e2f97;
+}
+
+#values {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.input-info {
+  background-color: rgb(246, 246, 246);
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 250px;
+  height: 30px;
+  text-align: center;
+}
