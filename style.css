@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  font-family: "Inter";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#course-title {
+  font-size: 80px;
+}
+
+#btn-color {
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  margin: 40px;
+  cursor: pointer;
+  background-color: #1e2f97;
+}
